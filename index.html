@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张煜的个人简历</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .profile-img {
+            width: 100px;
+            height: 145px;
+            border-radius: 5px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+        }
+        .contact-info {
+            font-size: 14px;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .education-item, .experience-item {
+            margin-bottom: 20px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background-color: #e8f4fc;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+        .project-item, .competition-item {
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 3px solid #3498db;
+        }
+        .qr-code {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px dashed #ccc;
+        }
+        .qr-code img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>张煜</h1>
+            <div class="contact-info">
+                手机：+86-18104467482<br>
+                邮箱：2310988358@qq.com
+            </div>
+        </div>
+        <img src="profile.jpg" alt="张煜的照片" class="profile-img">
+    </header>
+
+    <section>
+        <h2>教育背景</h2>
+        <div class="education-item">
+            <strong>东北大学</strong> 计算机与通信工程学院<br>
+            计算机科学与技术专业 | 2022/09至今<br>
+            绩点：2.36/5.0 | 排名：175/191 | 政治面貌：共青团员
+        </div>
+    </section>
+
+    <section>
+        <h2>主修课程</h2>
+        <p>C++程序设计（75）计算机导论（91）Java程序设计（92）概率论与数理统计（87）</p>
+    </section>
+
+    <section>
+        <h2>技能</h2>
+        <div class="skills">
+            <span class="skill-tag">C/C++</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">数据结构与算法</span>
+            <span class="skill-tag">普通话二级甲等</span>
+            <span class="skill-tag">英语CET4</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>所获荣誉</h2>
+        <ul>
+            <li>2022-2023学年第二学期 优秀团员</li>
+            <li>2022-2023学年第二学期 优秀干事</li>
+            <li>2022-2023学年第二学期 普通话二级甲等</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>竞赛经历</h2>
+        <div class="competition-item">
+            <strong>蓝桥杯</strong>
+            <p>通过参加蓝桥杯竞赛，深入学习了算法和数据结构的基础知识，并在实践中见识到了许多优秀的解题思路。虽然未能获奖，但这次经历让我认识到自己在算法优化和代码效率上的不足，也激发了我进一步学习动态规划、贪心算法等经典算法的兴趣。</p>
+        </div>
+        <div class="competition-item">
+            <strong>校数学建模比赛</strong>
+            <p>在校数学建模比赛中，与队友合作完成了从问题分析到模型构建的全过程。尽管最终成绩不理想，但这次比赛让我学会了如何将实际问题转化为数学模型，并尝试用编程工具（如MATLAB）进行求解。同时，我也意识到自己在数据分析和团队协作方面还有很大的提升空间。</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>项目经验</h2>
+        <div class="project-item">
+            <strong>简单LISP算术表达式计算器</strong>
+            <p>通过实现LISP算术表达式计算器，深入理解了栈的应用和递归算法的实现原理。在项目中，学会了如何将中缀表达式转换为后缀表达式并进行求值，同时也掌握了基本的错误处理机制。</p>
+        </div>
+        <div class="project-item">
+            <strong>多人聊天工具</strong>
+            <p>在开发多人聊天工具的过程中，熟练掌握了Java Socket编程和多线程技术，实现了客户端与服务器之间的实时通信。通过这个项目，学会了如何设计简单的网络协议，并理解了线程同步的重要性。</p>
+        </div>
+        <div class="project-item">
+            <strong>停车管理系统</strong>
+            <p>停车管理系统的开发让我巩固了C++面向对象编程的思想，尤其是类的封装与继承的应用。通过文件操作实现了数据的持久化存储，并初步了解了模块化开发的重要性。</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>实习实践</h2>
+        <div class="experience-item">
+            <strong>校团委物资管理部干事</strong> | 2022.09
+            <p>负责物资登记、调配及日常维护工作，提升了组织协调与事务管理能力。</p>
+        </div>
+    </section>
+
+    <div class="qr-code">
+        <p>扫描二维码访问本页面</p>
+        <!-- 这里将替换为实际的二维码图片 -->
+        <img src="qr-code.png" alt="个人简历二维码">
+    </div>
+</body>
+</html>
